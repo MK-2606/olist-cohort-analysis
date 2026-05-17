@@ -1,3 +1,15 @@
+-- =========================================================
+-- Project : Olist Customer Cohort Analysis
+-- Author  : Mansi Kumari
+-- Tool    : Google BigQuery (Standard SQL)
+-- File    : 05_kpi_queries.sql
+-- Purpose : 10 business KPIs — churn, repeat window,
+--           revenue split, acquisition, AOV, seasonal
+--           cohorts, state analysis, DENSE_RANK, NTILE
+--           segmentation, payment method breakdown
+-- Output  : Exported as CSVs for Python visualisation
+-- =========================================================
+
 -- KPI 1
 
 SELECT
