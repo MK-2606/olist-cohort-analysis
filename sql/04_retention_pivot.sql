@@ -1,3 +1,13 @@
+-- =========================================================
+-- Project : Olist Customer Cohort Analysis
+-- Author  : Mansi Kumari
+-- Tool    : Google BigQuery (Standard SQL)
+-- File    : 04_retention_pivot.sql
+-- Purpose : Pivot retention matrix — cohorts as rows,
+--           month_0 to month_12 as columns (heatmap-ready)
+-- Output  : olist_analysis.retention_pivot
+-- =========================================================
+
 SELECT
   cohort_month,
   cohort_size,
@@ -18,4 +28,4 @@ SELECT
 FROM `olist-cohort-analysis.olist_analysis.retention_matrix`
 WHERE cohort_size >= 50
 GROUP BY cohort_month, cohort_size
-ORDER BY cohort_month
+ORDER BY cohort_month;
