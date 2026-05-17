@@ -1,3 +1,13 @@
+-- =========================================================
+-- Project : Olist Customer Cohort Analysis
+-- Author  : Mansi Kumari
+-- Tool    : Google BigQuery (Standard SQL)
+-- File    : 02_cohort_base.sql
+-- Purpose : Assign each customer to their first-purchase
+--           month (cohort), aggregate orders + lifetime spend
+-- Output  : olist_analysis.cohort_base
+-- =========================================================
+
 SELECT
   customer_unique_id,
   MIN(order_month) AS cohort_month,
