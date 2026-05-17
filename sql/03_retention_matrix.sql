@@ -1,3 +1,13 @@
+-- =========================================================
+-- Project : Olist Customer Cohort Analysis
+-- Author  : Mansi Kumari
+-- Tool    : Google BigQuery (Standard SQL)
+-- File    : 03_retention_matrix.sql
+-- Purpose : Build cohort x month retention matrix using CTAs
+--           calculate retention % per cohort per month
+-- Output  : olist_analysis.retention_matrix
+-- =========================================================
+
 WITH tagged_orders AS (
   SELECT
     m.customer_unique_id,
