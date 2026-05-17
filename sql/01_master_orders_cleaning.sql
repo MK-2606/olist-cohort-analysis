@@ -1,3 +1,13 @@
+-- =========================================================
+-- Project : Olist Customer Cohort Analysis
+-- Author  : Mansi Kumari
+-- Tool    : Google BigQuery (Standard SQL)
+-- File    : 01_master_orders_cleaning.sql
+-- Purpose : Filter delivered orders, join customers +
+--           payments, create master_orders base table
+-- Output  : olist_analysis.master_orders
+-- =========================================================
+
 SELECT
   o.order_id,
   c.customer_unique_id,
