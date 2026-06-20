@@ -1,5 +1,3 @@
-# olist-cohort-analysis
-
 # Olist Customer Cohort Analysis
 
 > **Tools:** Google BigQuery · Python 3 (pandas, seaborn, matplotlib, sklearn) · Google Colab  
