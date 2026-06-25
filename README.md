@@ -63,5 +63,4 @@ drives (or prevents) repeat purchase behaviour?
 
 ---
 
-*3rd year B.Tech student project — targeting data analyst roles*  
 *Feedback and questions welcome via GitHub Issues.*
